@@ -2,8 +2,8 @@ import React, {useEffect, useState} from 'react';
 import Recipe from './Recipe';
 import "./App.css"
 const App = () =>{
-        const AppID = "14bea648"
-        const AppKey = "43e9010cf139c1607b898a947e591361" 
+        const AppID = ""
+        const AppKey = "" 
         
         const [recipes, setRecipes] = useState([]);
         const [search, setSearch] = useState('search here');
